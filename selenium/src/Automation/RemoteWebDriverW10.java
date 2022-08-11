@@ -1,19 +1,22 @@
 package Automation;
-import java.net.URL;
 
+import java.net.MalformedURLException;
+
+import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterClass;
 
-public class W9D4WorkingwithkeyUpandkeyDown {
+public class RemoteWebDriverW10 {
 
 	/* Create a Firefox DesiredCapabilities Object*/
 	 DesiredCapabilities firefoxDC = DesiredCapabilities.firefox();
 	 /* Create Remote Web Driver object to communicate to Selenium Grid Hub*/
 	 WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxDC);
 	
-	 BeforeClass
+	
+	 
+	 @BeforeClass
 	 /* Create and initiate a Firefox web browser and maximize it. */
 	 public static void initiate() throws MalformedURLException {
 	 /* Create a DesiredCapabilities object which required a Selenium 
@@ -26,7 +29,7 @@ public class W9D4WorkingwithkeyUpandkeyDown {
 	 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxDC);
 	 
 	 /* Maximize the Firefox web browser window on the Selenium Grid Node. */
-	 driver.manage().window().maximize();
+	 driver .manage().window().maximize();
 	 }
 	 
 	 @Test
@@ -58,8 +61,5 @@ public class W9D4WorkingwithkeyUpandkeyDown {
 	 if (driver != null) {
 	 driver.quit();
 	 }
-	 }
-	
-	
-	
-}
+	 }  
+     }

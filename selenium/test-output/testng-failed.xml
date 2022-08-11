@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.TestNGClassDemo">
+      <class name="Automation.CSSSelectorusingStartsWithEndsWithContains">
         <methods>
-          <include name="launchapp"/>
-          <include name="terminatetest"/>
-          <include name="calculatepercent"/>
+          <include name="chromepage"/>
         </methods>
-      </class> <!-- Automation.TestNGClassDemo -->
+      </class> <!-- Automation.CSSSelectorusingStartsWithEndsWithContains -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

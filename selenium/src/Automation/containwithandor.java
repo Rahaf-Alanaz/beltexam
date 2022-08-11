@@ -20,9 +20,49 @@ public class containwithandor {
 		
 		
 		//button register
-		driver.findElement(By.xpath("//input[contains(@id,'txtUsername') and contains(@name,'txtUsername')]")).sendKeys("RAHAF@gmail.com");	
-		Thread.sleep(3000);	
+		driver.findElement(By.xpath("//input[contains(@id,'txtUsername') and contains(@name,'txtUsername')]"))
+		.sendKeys("RAHAF@gmail.com");	
+	Thread.sleep(3000);	
 		
 		
+	
+	
+	
+	
+	
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.chrome.ChromeDriver;
+	import org.testng.annotations.Test;
+
+	public class invokechromedriver {
+
+		public ChromeDriver driver; 
+
+		
+			
+			@Test
+			public void Chromepage() throws InterruptedException {
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\Lenovo\\Desktop\\selunume-j\\chromedriver_win32\\chromedriver.exe");
+				ChromeDriver driver =new ChromeDriver();
+				driver.navigate().to("https://www.facebook.com");
+				
+
+			     // Type in email
+			     driver.findElement(By.cssSelector("input.inputtext._55r1._6luy")).sendKeys("maialshamsi.ksaksa@gmail.com");//by class
+			     Thread.sleep(1000);
+			     
+			    // Type in password input
+			     driver.findElement(By.cssSelector("input#pass")).sendKeys("r");//by id
+			     Thread.sleep(1000);
+			   
+			   //Typr in login button
+			     driver.findElement(By.cssSelector("button[id*='u_0_5']")).click(); //by start
+			     Thread.sleep(1000); 	    
+				    	    
+	}
+	}
 }
 }
+
+
+

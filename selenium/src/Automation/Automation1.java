@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Automation1 {
 	
-//all assiment week8		
+//	
 
 @Test
 	public void xPath() throws InterruptedException {

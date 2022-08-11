@@ -11,7 +11,7 @@ public class WorkingwithCheckboxesUsingaButtonClickW9WA2A1 {
     	SafariDriver driver= new SafariDriver();
     
 
-          driver.get("http://demo.guru99.com/test/radio.html");	
+          .get("http://demo.guru99.com/test/radio.html");	
         // Selecting CheckBox		
         WebElement option1 = driver.findElement(By.id("vfb-6-0"));							
 
@@ -24,7 +24,7 @@ public class WorkingwithCheckboxesUsingaButtonClickW9WA2A1 {
 
         } else {			
             System.out.println("Checkbox is Toggled Off");					
-        }		
+        }		driver
          
 		Thread.sleep(3000);	
 

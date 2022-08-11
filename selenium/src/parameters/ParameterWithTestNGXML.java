@@ -6,7 +6,7 @@ import java.time.Duration;
 //import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -16,18 +16,7 @@ import org.testng.annotations.Test;
 
 public class ParameterWithTestNGXML {
 	
-/*
-	//String driverPath = "C:\\geckodriver.exe";
-	WebDriver driver;
-    @Test
-    @Parameters({"author","searchKey"})
-    public void testParameterWithXML( @Optional("Abc") String author,String searchKey) throws InterruptedException{
-       
-        System.setProperty("webdriver.gecko.driver", "/Users/reham/Desktop/automation\\ testing/geckodriver");
-        driver = new FirefoxDriver();
-        */
-    	
-    	
+
     	
 	@Test
     @Parameters({"author","searchKey"})
