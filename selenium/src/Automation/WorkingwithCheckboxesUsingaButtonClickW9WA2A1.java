@@ -32,5 +32,10 @@ public class WorkingwithCheckboxesUsingaButtonClickW9WA2A1 {
        			
 		driver.close();		
         		
-    }		
+    }
+
+	private static void get(String string) {
+		// TODO Auto-generated method stub
+		
+	}		
 }

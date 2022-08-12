@@ -11,7 +11,7 @@ public class WorkingwithScrolltoPageBottomusingVisibilityW9D2A4 {
     	SafariDriver driver= new SafariDriver();
 
 	//Navigate to web page 
-    driver.navigate().to("https://hijri-calendar.com/");
+    driver.navigate().to("https://www.netflix.com/sa-en/");
     driver.manage().window().maximize();
 	 
      // scroll down by 400 pixels with Javascript Executor
@@ -23,6 +23,11 @@ public class WorkingwithScrolltoPageBottomusingVisibilityW9D2A4 {
      JavascriptExecutor js2 = (JavascriptExecutor) driver;
      js2.executeScript("window.scrollBy(0,document.body.scrollHeight)");
      Thread.sleep(2000);
+     
+     JavascriptExecutor js2 = (JavascriptExecutor) driver;
+     js2.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+     Thread.sleep(2000);
+   
      
      driver.close();
 

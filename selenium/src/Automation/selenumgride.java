@@ -15,7 +15,7 @@ public class selenumgride {
 
 		DesiredCapabilities capability = DesiredCapabilities.firefox();
 
-	WebDriver driver = new FirefoxDriver();
+	WebDriver driver1 = new FirefoxDriver();
 
 		WebDriver driver = new RemoteWebDriver(new URL("https://localhost:4444/wd/hub"), capability);
 
