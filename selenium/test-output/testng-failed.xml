@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.CSSSelectorusingStartsWithEndsWithContains">
+      <class name="Automation.WorkingwiththeScrollbarKW9D2A3$Scrollbar">
         <methods>
           <include name="chromepage"/>
         </methods>
-      </class> <!-- Automation.CSSSelectorusingStartsWithEndsWithContains -->
+      </class> <!-- Automation.WorkingwiththeScrollbarKW9D2A3$Scrollbar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
